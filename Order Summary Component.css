@@ -7,9 +7,10 @@ HTML, body{
     background-image: url(pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-color: rgb(218, 224, 252, 0.7);
-    background-size: 34cm 9cm;
+    background-size: cover;
     font-family: 'Red Hat Display';
     color: hsl(223, 47%, 23%);
+    background-position-y: -2cm;
     
     
 }
