@@ -1,0 +1,140 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+
+HTML, body{
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: rgb(218, 224, 252, 0.7);
+    background-size: 34cm 9cm;
+    font-family: 'Red Hat Display';
+    color: hsl(223, 47%, 23%);
+    
+    
+}
+
+
+main{
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+    height: 12.5cm;
+    width: 8.26cm;
+    background-color: white;
+    border-radius: 0.3967cm;
+    background-image: url(illustration-hero.svg);
+    background-repeat: no-repeat;
+    
+    background-size: 8.26cm;
+    text-align: center;
+}
+
+h2{
+    margin-top: 5cm;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    
+    font-weight: 900;
+    font-size: 0.5cm;
+}
+
+p{  
+    font-weight: 500;
+    
+    font-size: 0.3cm;
+    color: hsl(224, 23%, 55%);
+    
+    margin-top: -0.132cm;
+    padding: 0 1.1cm 0 1.1cm;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(196, 196, 247, 8%);
+    margin: 0.26cm 0.9cm 0 0.9cm;
+    height: 1.7cm;
+    border-radius: 0.26cm;
+    padding-left: 0.8cm;
+    background-image: url(icon-music.svg);
+    background-repeat: no-repeat;
+    background-size: 0.8cm;
+    background-position-x: 0.4cm;
+    background-position-y: 0.4cm;
+    
+}
+.flex-container > *{
+    
+    align-items: center;
+    
+    margin: 0.4cm 0 0 0.4cm;
+
+}
+
+.change-container{
+    
+    display: flex;
+    margin-top: -0.26cm;
+    
+}
+
+li{list-style-type: none;}
+
+a{
+    color: rgb(67, 67, 216);
+    font-weight: 900;
+    font-size: 0.26cm;
+    
+    
+}
+
+#money{
+    
+    color: hsl(224, 23%, 55%);
+    font-size: 0.3cm;
+    font-weight: 700;
+}
+
+h5{
+    line-height: 0.45cm;
+    font-weight: 900;
+    font-size: 0.3cm;
+    
+}
+
+.payment{
+    margin: 0.7cm 0.9cm 0.5cm 0.9cm;
+    height: 0.9cm;
+    display: grid;
+    align-items: center;
+    border-radius: 0.15cm;
+    background-color: hsl(245, 75%, 52%);
+
+    font-size: 0.35cm;
+    font-weight: 600;
+    color: hsl(225, 100%, 98%);
+    box-shadow: 0.13cm 0.13cm 0.26cm   rgb(174, 174, 247);
+    
+}
+
+.cancel{
+    font-weight: 900;
+    font-size: 0.3cm;
+    color: hsl(224, 23%, 55%);
+}
+.cancel, .payment:hover{
+    cursor:pointer;
+}
+.payment:hover{
+    background-color: rgba(83, 83, 226, 0.8);   
+}
+a:hover{
+ text-decoration: none;   
+ color: rgba(83, 83, 226, 0.6);
+}
+.cancel:hover{
+  color:hsl(223, 47%, 23%);
+}
+
